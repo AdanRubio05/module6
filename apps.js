@@ -18,3 +18,6 @@ const trek = {
    state: "New Mexico",
    plant: "Green Chili Peppers",
 }
+
+document.getElementById("fowl").innerHTML = "However, there is compromise as traditional Mexican & Tex-Mex cuisine are great with " + 
+trek.plant + " from " + trek.city + ", " + trek.state ;
