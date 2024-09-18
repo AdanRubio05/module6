@@ -16,8 +16,16 @@ document.getElementById("rant").innerHTML =
 const trek = {
    city: "Hatch Valley",
    state: "New Mexico",
-   plant: "Green Chili Peppers",
+   plant: "green chile",
 }
+
 
 document.getElementById("fowl").innerHTML = "However, there is compromise as traditional Mexican & Tex-Mex cuisine are great with " + 
 trek.plant + " from " + trek.city + ", " + trek.state ;
+
+const weight = [
+    ["pounds", 23000]
+] ;
+const myLbs = Object.fromEntries(weight) ;
+
+document.getElementById("stats").innerHTML = "Almost " + myLbs.pounds + " pounds or about 11 tons of chile are grown annualy according to the USDA." ;
