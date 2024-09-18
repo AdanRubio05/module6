@@ -28,4 +28,4 @@ const weight = [
 ] ;
 const myLbs = Object.fromEntries(weight) ;
 
-document.getElementById("stats").innerHTML = "Almost " + myLbs.pounds + " pounds or about 11 tons of chile are grown annualy according to the USDA." ;
+document.getElementById("stats").innerHTML = "Almost " + myLbs.pounds + " pounds or about 11 tons of Hatch chile are grown annualy according to the USDA." ;
